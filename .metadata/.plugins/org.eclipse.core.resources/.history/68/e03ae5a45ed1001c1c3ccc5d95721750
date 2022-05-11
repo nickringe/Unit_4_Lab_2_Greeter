@@ -46,37 +46,33 @@ public class GreeterApp {
 		// extended challenge 3:
 		boolean userCont = true;
 		while (userCont == true) {
-				System.out.println("Which Greeter would you like to use?");
-				System.out.println("1. Greeter");
-				System.out.println("2. SimonGreeter");
-				System.out.println("3. LoudGreeter");
-				System.out.println("4. HtmlGreeter");
+			System.out.println("Which Greeter would you like to use?");
+			System.out.println("1. Greeter");
+			System.out.println("2. SimonGreeter");
+			System.out.println("3. LoudGreeter");
+			System.out.println("4. HtmlGreeter");
 
-				int whichGreeter = scnr.nextInt();
-				if (whichGreeter < 1 || whichGreeter > 4) {
-					System.out.println("Sorry, that wasn't a choice");
-				} else if (whichGreeter == 1) {
-					System.out.println(newGreeting.greet(userName));
-				} else if (whichGreeter == 2) {
-					System.out.println(newSimon.greet(userName));
-				} else if (whichGreeter == 3) {
-					System.out.println("How much volume to add? (1-10):");
-					int userVolume2 = scnr.nextInt();
-					for (int i = 0; i < userVolume2; i++) {
-						newLoud.addVolume();
-					}
-					System.out.println(newLoud.greet(userName));
-				} else if (whichGreeter == 4) {
-					System.out.println(newHtml.greet(userName));
-				}
-				System.out.println("Would you like to continue? y/n");
-				String userContinue = scnr.next();
-				if (userContinue.charAt(0) == 'y' || userContinue.charAt(0) == 'Y') {
-					userCont = true;
-				} else {
-					userCont = false;
-					break;
-				}
+			int whichGreeter = scnr.nextInt();
+			if (whichGreeter < 1 || whichGreeter > 4) {
+				System.out.println("Sorry, that wasn't a choice");
+			} else if (whichGreeter == 1) {
+				System.out.println(newGreeting.greet(userName));
+			} else if (whichGreeter == 2) {
+				System.out.println(newSimon.greet(userName));
+			} else if (whichGreeter == 3) {
+				System.out.println(newLoud.greet(userName));
+			} else if (whichGreeter == 4) {
+				System.out.println(newHtml.greet(userName));
+			}
+			System.out.println("Would you like to continue?");
+//			String userContinue = scnr.nextLine();
+//				if (userContinue.charAt(0) == 'y' || userContinue.charAt(0) == 'Y') {
+//					userCont = true;
+//				} else {
+//					userCont = false;
+//					break;
+//				}
+			
 		}
 		System.out.println("Goodbye!");
 

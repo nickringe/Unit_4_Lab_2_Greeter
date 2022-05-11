@@ -46,6 +46,7 @@ public class GreeterApp {
 		// extended challenge 3:
 		boolean userCont = true;
 		while (userCont == true) {
+			try {
 				System.out.println("Which Greeter would you like to use?");
 				System.out.println("1. Greeter");
 				System.out.println("2. SimonGreeter");
@@ -77,6 +78,9 @@ public class GreeterApp {
 					userCont = false;
 					break;
 				}
+			} catch (Exception e) {
+				System.out.println("Sorry, I didn't get that.");
+			}
 		}
 		System.out.println("Goodbye!");
 
