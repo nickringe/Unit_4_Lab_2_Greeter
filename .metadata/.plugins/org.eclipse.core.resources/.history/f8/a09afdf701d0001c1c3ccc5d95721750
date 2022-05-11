@@ -1,0 +1,13 @@
+
+public class SimonGreeter extends Greeter {
+
+	public SimonGreeter(String greeting) {
+		super(greeting);
+
+	}
+
+	public String simonGreet(String greeting, String userName) {
+		
+		return "Simon Says, \""  + greeting + ", " + userName + "!\"";
+	}
+}

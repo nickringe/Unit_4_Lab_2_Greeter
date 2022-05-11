@@ -1,0 +1,20 @@
+
+public class Greeter {
+	private String greeting;
+
+	public String getGreeting() { // Getter
+		return greeting;
+	}
+
+	public void setGreeting(String greeting) { // Setter
+		this.greeting = greeting;
+	}
+
+	public Greeter(String greeting) { // Constructor
+		this.greeting = greeting;
+	}
+
+	public String greeting(String name) { // Method
+		return "{" + this.greeting + "}," + "{" + name + "}!";
+	}
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GreeterTests" project="GreeterClassesLab" tests="11" started="11" failures="0" errors="0" ignored="0">
+  <testsuite name="GreeterTests" time="0.028" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]">
+    <testcase name="simonGreeterTestGreeting" classname="GreeterTests" time="0.017" displayname="simonGreeterTestGreeting()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:simonGreeterTestGreeting()]"/>
+    <testcase name="HtmlGreeterTestGreeting" classname="GreeterTests" time="0.002" displayname="HtmlGreeterTestGreeting()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:HtmlGreeterTestGreeting()]"/>
+    <testcase name="HtmlGreeterTestTagName" classname="GreeterTests" time="0.001" displayname="HtmlGreeterTestTagName()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:HtmlGreeterTestTagName()]"/>
+    <testcase name="HtmlGreeterTestName" classname="GreeterTests" time="0.001" displayname="HtmlGreeterTestName()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:HtmlGreeterTestName()]"/>
+    <testcase name="LoudGreeterTestWithVolume2" classname="GreeterTests" time="0.001" displayname="LoudGreeterTestWithVolume2()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:LoudGreeterTestWithVolume2()]"/>
+    <testcase name="LoudGreeterTestWithVolume" classname="GreeterTests" time="0.0" displayname="LoudGreeterTestWithVolume()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:LoudGreeterTestWithVolume()]"/>
+    <testcase name="simonGreeterTestName" classname="GreeterTests" time="0.0" displayname="simonGreeterTestName()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:simonGreeterTestName()]"/>
+    <testcase name="greeterTestGreeting" classname="GreeterTests" time="0.0" displayname="greeterTestGreeting()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:greeterTestGreeting()]"/>
+    <testcase name="LoudGreeterTestNoVolume" classname="GreeterTests" time="0.001" displayname="LoudGreeterTestNoVolume()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:LoudGreeterTestNoVolume()]"/>
+    <testcase name="HtmlGreeterTestContructorTagName" classname="GreeterTests" time="0.0" displayname="HtmlGreeterTestContructorTagName()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:HtmlGreeterTestContructorTagName()]"/>
+    <testcase name="greeterTestName" classname="GreeterTests" time="0.0" displayname="greeterTestName()" uniqueid="[engine:junit-jupiter]/[class:GreeterTests]/[method:greeterTestName()]"/>
+  </testsuite>
+</testrun>
