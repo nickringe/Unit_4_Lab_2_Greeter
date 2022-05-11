@@ -42,7 +42,6 @@ public class GreeterApp {
 		for (Greeter b: greeterList) {
 			System.out.println(b.greet(userName));
 		}
-		
 		scnr.close();
 				
 		

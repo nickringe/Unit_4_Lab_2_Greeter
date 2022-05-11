@@ -38,11 +38,9 @@ public class GreeterApp {
 		greeterList.add(newLoud);
 		greeterList.add(newSimon);
 		greeterList.add(newHtml);
-		greeterList.add(newHtmlChoice);
 		for (Greeter b: greeterList) {
 			System.out.println(b.greet(userName));
 		}
-		
 		scnr.close();
 				
 		

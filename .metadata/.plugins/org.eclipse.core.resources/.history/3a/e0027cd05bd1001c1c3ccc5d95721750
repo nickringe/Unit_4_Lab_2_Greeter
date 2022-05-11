@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class GreeterApp {
@@ -26,28 +24,25 @@ public class GreeterApp {
 		System.out.println(newLoud.greet(userName));
 		System.out.println(newHtml.greet(userName));
 		
-		//extended challenge 1:
 		System.out.println("Which type of HTML tag would you like to use?:");
-		String userHtml = scnr.next();
+		String userHtml = scnr.nextLine();
 		HtmlGreeter newHtmlChoice = new HtmlGreeter(userGreeting, userHtml);
 		System.out.println(newHtmlChoice.greet(userName));
-		
-		//extended challenge 2:
-		List<Greeter> greeterList = new ArrayList<>();
-		greeterList.add(newGreeting);
-		greeterList.add(newLoud);
-		greeterList.add(newSimon);
-		greeterList.add(newHtml);
-		greeterList.add(newHtmlChoice);
-		for (Greeter b: greeterList) {
-			System.out.println(b.greet(userName));
-		}
-		
 		scnr.close();
-				
+		
+		
+		//still prints out 1 less ! than needed, I think in the original
+		//greeter class
+		
+		
+		
+	
+		
+
+		
+		
 		
 	}
-	
 
 
 }
